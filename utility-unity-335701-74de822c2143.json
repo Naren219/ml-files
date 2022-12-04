@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "utility-unity-335701",
+  "private_key_id": "74de822c21439c89fd425fa081e5154607bc7321",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC48Lr0NoO17LDi\nlHg4EbJmiKkaJMZA65rEjl4SImUynjqf0oXO7HzaRWbo/bCihX6zhGqDUU0rFktt\nsX/wUgh9HtL1XtwDx3dp53pSDCXtOmRGtsQShlts64cZSSSFpFqhjsiceaK2yQOh\n3HYNQ6WG/S9XuApczs2r3DWFIs0DrolUIFiZf9v4PzmWkIt1xpNFBA0CZwhB7wJp\nX2IiSQ98Rk9+BMF+RCUWzNo7dQzKUOX2hoxw2n2QtX8vn/qFdTdpm/FczD376+tR\nO2hGY9diPIJowMesIfgfMrzPrGN/JCpTjr4mjWKioQI1Y6TyYFkoBkbVPlEUdGy8\nStYgGCvnAgMBAAECggEACHfQitYXYDRSQedI1rUyVTEn7Qm6BvopJmh0zjr2jBBk\nRsuKhosCVhkCn7B3ogY5L8CxNj1GxBSyDd4oXLlxqHXJp9dY46No4fFQNhy9Fjur\n08ESmtzw2ryxSh5Oc2Z77+HSnB344VdOH0WYJWTvjPRfpcVh7a+No0ziw0UKQume\nJsO5mJoshhJxJ2IkF9KPs7a5Luvgc+GZLSjsbc1jOb3INQrkfgm+cUa3XkkTmMBF\nfLKY3wEx5iyE7Ol0kD4Q+rMj0vI+2FuINF2bR8wkteCk/TlkHVFDIZR3qyztD5D/\nj4qLfBSYxXh0GtUMUFBRjfhysnQevAIQddz/HLDUAQKBgQDxAjYXjlLVlHBp+JP6\nS2DItIL1VogFDRsrVuDfTJ8xx4hI61z3DSRho4kRUSXUCn+KXrtzoQVi2TkKZahk\nUNdAzeS3LSMd2xuotd7H7YUAIhkEIaII+jbcoi/bfTK74xVZaoeMl2n1V8F/5iRb\n0BqBRGUJ2IPAv0iTKjl4Pq8agQKBgQDEcbH8kAHLvlNHcTUfF2cg6NDMY7XYBpW2\nSEywzmklpV5hPSYOVoVppo6ZMT/6a0Tqjx5c2vxFJyOa9EhnT3zCMkL9Vdb43jR4\nH1YazTcK8myvHuxmWuuu73+IJuHIH0Kw7IitAFsLhVNlo0yZRyQshtiH4Zk5tuc4\nX7Zx3q+CZwKBgQCvdy6uo74HJZVacdI6rlp+hX265Q8OrmYTfaMmsABPG7hLbqA2\ndekA9TE73FqwMBx/P002eAsV1pTCzxR0RK8SzVQxULl6aSWQBSl3YaQtXqXb7iis\nZI9AvwwcvuALDt9iRD7/ytUn/IYyefoKpk5FwufU7T+vOxS5oEpLE0glAQKBgC/X\npMpm5BkT1EJs/swArhwkt11f11SyXdnUB+Fzk8YYXUD/XHpXdgyCBO6oQPWjFFiv\n3Gwu5QuOeaxuXAfVIwREq235bu6TZ2Ht99F1MzeWTQPlWxuefxHOwFePaKONgXeH\nU84WbRYENYhmWexmmBfEC44kUmXs9qkTHmLjIgl3AoGBAI3vOY4a2WX88Pt/1C9W\n7AswgAAHcAjfS5Y0Vodz+sDUoUvjB3sdTHpq+O9NrOI1vzyuSMZmBFIKJHgnlzcW\nXkb7ZxOqYBFRTZzJIdZneMJfW2jIYVS0p6Hxxg4Zxx65aL2Akv3bfVzV7Cd6C6Hg\n3SsdGfuplA/ZAKa5i9jqRSsR\n-----END PRIVATE KEY-----\n",
+  "client_email": "snapnshop@utility-unity-335701.iam.gserviceaccount.com",
+  "client_id": "110286547101062462509",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/snapnshop%40utility-unity-335701.iam.gserviceaccount.com"
+}
