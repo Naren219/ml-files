@@ -2,6 +2,7 @@
 loss for binary cross entropy is weirdly higher than when using MSE. pretty sure that the 
 implementation is correct so will need to look into why the loss still stays high with a better
 loss function for binary classification. 
+Based on this code: https://github.com/Polaris000/BlogCode/blob/main/XOR_Perceptron/xorperceptron.ipynb
 '''
 
 from itertools import cycle
