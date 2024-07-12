@@ -11,16 +11,18 @@ bigram: using only the previous char to predict the next char. character-level p
 4. Negative log likelihood loss is calculated using the true indices ys.
 
 ### MLP
-1. the first layer looks at 3 previous words and embedds them in n dimensions using a lookup table.
+1. the first layer looks at 3 previous words and embeds them in n dimensions using a lookup table.
 2. each embedding set is concatenated and sent through a tanh layer.
 3. the final layer is as long as the vocab size which holds the logits.
 4. logits get softmax-ed into a probability distribution.
 
 #### Calculating loss
 prob[torch.arange(32), Y] - 
-probs holds the probabilities of the next occuring character for each character in x. we use arange in the first index to see if the probability that that specific character appears next is close to the ground truth, determining the loss.
+probs holds the probabilities of the next occurring character for each character in x. we use arange in the first index to see if the probability that that specific character appears next is close to the ground truth, determining the loss.
 
-TODO
+WaveNet -> RNN
+* when growing the vanilla run, all we do is squash the input into a few neurons. this doesn't lead to better results. 
+* 
 
 
 ### important concepts
