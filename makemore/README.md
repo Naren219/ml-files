@@ -32,4 +32,5 @@ WaveNet/RNN -> when growing the vanilla run, all we do is squash the input into 
 
 ### Links
 Backprop exercise: https://colab.research.google.com/drive/1CJQeyOSecEJ8-lKK8g7QhP_ZEfWz_lQs?usp=sharing
+
 Bigram+MLP model: https://colab.research.google.com/drive/187XiSKugmMAYVUM4-5R95_nEmCfhoOAc?usp=sharing
