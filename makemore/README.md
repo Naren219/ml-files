@@ -20,13 +20,14 @@ bigram: using only the previous char to predict the next char. character-level p
 prob[torch.arange(32), Y] - 
 probs holds the probabilities of the next occurring character for each character in x. we use arange in the first index to see if the probability that that specific character appears next is close to the ground truth, determining the loss.
 
-WaveNet/RNN -> when growing the vanilla run, all we do is squash the input into a few neurons. this doesn't lead to better results. thus, we have this new architecture
+### WaveNet/RNN
+when growing the vanilla run, all we do is squash the input into a few neurons, hurting performance.
+what happens is that when we split the squishing into different levels/layers, the loss function adjusts weights depending on the level of abstraction for a specific layer (bigram, fourgram, etc). gradients are better at specialized pattern recognition, meaning this approach leads to better generalization.
 
 ### important concepts
 * broadcasting semantics
 * regularization loss -> tries to make weights to go zero which allow for uniform distribution. why do we want this?
 * we know the model is underfitting when the validation/test loss is close to the test loss. this means the models need to be larger.
-* lower batch size means the loss is less accurate since we're doing gradient descent with a smaller sample size.
 * batchnorm - makes a layer's distribution gaussian
 * why use nonlinearities? if we didn't have any nonlinearities, all the layers would collapse into a single linear function. this limits a neural net's ability to approximate arbitrary functions, hence we include nonlinearities. 
 
